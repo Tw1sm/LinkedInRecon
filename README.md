@@ -9,7 +9,7 @@ pip3 install -r requirements.txt
 ```
 ## Usage ##
 usage: linkedinrecon.py [-h] -c COMPANY [-p PAGES] [-o OUTPUT]
-
+```
 optional arguments:
   -h, --help            show this help message and exit
   -c COMPANY, --company COMPANY
@@ -19,3 +19,4 @@ optional arguments:
                         page). Default of 5
   -o OUTPUT, --output OUTPUT
                         name and path of output csv
+```
