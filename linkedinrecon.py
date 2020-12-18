@@ -55,7 +55,7 @@ def main():
         results_div = soup.find("div", attrs={"id": "resultStats"})
         
         if pagenum == 0:
-            print(f'[+] {results_div.text}')
+            #print(f'[+] {results_div.text}')
 
         print(f'[*] Processing page {pagenum + 1}...')
         for li in divs:
