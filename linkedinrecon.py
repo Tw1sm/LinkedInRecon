@@ -54,7 +54,7 @@ def main():
         divs = soup.findAll("div", attrs={"class": "g"})
         results_div = soup.find("div", attrs={"id": "resultStats"})
         
-        if pagenum == 0:
+        #if pagenum == 0:
             #print(f'[+] {results_div.text}')
 
         print(f'[*] Processing page {pagenum + 1}...')
